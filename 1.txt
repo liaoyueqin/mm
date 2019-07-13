@@ -1,2 +1,8 @@
 21
 主线提交1
+
+ git rebase -i 4cc33bc826b2f3d15bf250455e23716c3bb40065
+git rebase --continue
+ git push -f
+ git reflog
+git reset --hard HEAD@{16}
